@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C541F22626AF00021FEC3 /* AppDelegate.swift */; };
+		AE0C542222626AF00021FEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C542122626AF00021FEC3 /* ViewController.swift */; };
+		AE0C542522626AF00021FEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542322626AF00021FEC3 /* Main.storyboard */; };
+		AE0C542722626AF10021FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542622626AF10021FEC3 /* Assets.xcassets */; };
+		AE0C542A22626AF10021FEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */; };
+		AE0C543522626AF10021FEC3 /* GPS_TooklitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */; };
+		AE0C544022626AF10021FEC3 /* GPS_TooklitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE0C543122626AF10021FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0C541422626AF00021FEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0C541B22626AF00021FEC3;
+			remoteInfo = "GPS Tooklit";
+		};
+		AE0C543C22626AF10021FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0C541422626AF00021FEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0C541B22626AF00021FEC3;
+			remoteInfo = "GPS Tooklit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0C541C22626AF00021FEC3 /* GPS Tooklit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Tooklit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0C541F22626AF00021FEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0C542122626AF00021FEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0C542422626AF00021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0C542622626AF10021FEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0C542922626AF10021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0C542B22626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0C543022626AF10021FEC3 /* GPS TooklitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TooklitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TooklitTests.swift; sourceTree = "<group>"; };
+		AE0C543622626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0C543B22626AF10021FEC3 /* GPS TooklitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TooklitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TooklitUITests.swift; sourceTree = "<group>"; };
+		AE0C544122626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0C541922626AF00021FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C542D22626AF10021FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C543822626AF10021FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0C541322626AF00021FEC3 = {
+			isa = PBXGroup;
+			children = (
+				AE0C541E22626AF00021FEC3 /* GPS Tooklit */,
+				AE0C543322626AF10021FEC3 /* GPS TooklitTests */,
+				AE0C543E22626AF10021FEC3 /* GPS TooklitUITests */,
+				AE0C541D22626AF00021FEC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0C541D22626AF00021FEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C541C22626AF00021FEC3 /* GPS Tooklit.app */,
+				AE0C543022626AF10021FEC3 /* GPS TooklitTests.xctest */,
+				AE0C543B22626AF10021FEC3 /* GPS TooklitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0C541E22626AF00021FEC3 /* GPS Tooklit */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C541F22626AF00021FEC3 /* AppDelegate.swift */,
+				AE0C542122626AF00021FEC3 /* ViewController.swift */,
+				AE0C542322626AF00021FEC3 /* Main.storyboard */,
+				AE0C542622626AF10021FEC3 /* Assets.xcassets */,
+				AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */,
+				AE0C542B22626AF10021FEC3 /* Info.plist */,
+			);
+			path = "GPS Tooklit";
+			sourceTree = "<group>";
+		};
+		AE0C543322626AF10021FEC3 /* GPS TooklitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */,
+				AE0C543622626AF10021FEC3 /* Info.plist */,
+			);
+			path = "GPS TooklitTests";
+			sourceTree = "<group>";
+		};
+		AE0C543E22626AF10021FEC3 /* GPS TooklitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */,
+				AE0C544122626AF10021FEC3 /* Info.plist */,
+			);
+			path = "GPS TooklitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0C541B22626AF00021FEC3 /* GPS Tooklit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0C544422626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS Tooklit" */;
+			buildPhases = (
+				AE0C541822626AF00021FEC3 /* Sources */,
+				AE0C541922626AF00021FEC3 /* Frameworks */,
+				AE0C541A22626AF00021FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Tooklit";
+			productName = "GPS Tooklit";
+			productReference = AE0C541C22626AF00021FEC3 /* GPS Tooklit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE0C542F22626AF10021FEC3 /* GPS TooklitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0C544722626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS TooklitTests" */;
+			buildPhases = (
+				AE0C542C22626AF10021FEC3 /* Sources */,
+				AE0C542D22626AF10021FEC3 /* Frameworks */,
+				AE0C542E22626AF10021FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0C543222626AF10021FEC3 /* PBXTargetDependency */,
+			);
+			name = "GPS TooklitTests";
+			productName = "GPS TooklitTests";
+			productReference = AE0C543022626AF10021FEC3 /* GPS TooklitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE0C543A22626AF10021FEC3 /* GPS TooklitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0C544A22626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS TooklitUITests" */;
+			buildPhases = (
+				AE0C543722626AF10021FEC3 /* Sources */,
+				AE0C543822626AF10021FEC3 /* Frameworks */,
+				AE0C543922626AF10021FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0C543D22626AF10021FEC3 /* PBXTargetDependency */,
+			);
+			name = "GPS TooklitUITests";
+			productName = "GPS TooklitUITests";
+			productReference = AE0C543B22626AF10021FEC3 /* GPS TooklitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0C541422626AF00021FEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sylvan Martin";
+				TargetAttributes = {
+					AE0C541B22626AF00021FEC3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					AE0C542F22626AF10021FEC3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AE0C541B22626AF00021FEC3;
+					};
+					AE0C543A22626AF10021FEC3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AE0C541B22626AF00021FEC3;
+					};
+				};
+			};
+			buildConfigurationList = AE0C541722626AF00021FEC3 /* Build configuration list for PBXProject "GPS Tooklit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0C541322626AF00021FEC3;
+			productRefGroup = AE0C541D22626AF00021FEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0C541B22626AF00021FEC3 /* GPS Tooklit */,
+				AE0C542F22626AF10021FEC3 /* GPS TooklitTests */,
+				AE0C543A22626AF10021FEC3 /* GPS TooklitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0C541A22626AF00021FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0C542A22626AF10021FEC3 /* LaunchScreen.storyboard in Resources */,
+				AE0C542722626AF10021FEC3 /* Assets.xcassets in Resources */,
+				AE0C542522626AF00021FEC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C542E22626AF10021FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C543922626AF10021FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0C541822626AF00021FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0C542222626AF00021FEC3 /* ViewController.swift in Sources */,
+				AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C542C22626AF10021FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0C543522626AF10021FEC3 /* GPS_TooklitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0C543722626AF10021FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0C544022626AF10021FEC3 /* GPS_TooklitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0C543222626AF10021FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0C541B22626AF00021FEC3 /* GPS Tooklit */;
+			targetProxy = AE0C543122626AF10021FEC3 /* PBXContainerItemProxy */;
+		};
+		AE0C543D22626AF10021FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0C541B22626AF00021FEC3 /* GPS Tooklit */;
+			targetProxy = AE0C543C22626AF10021FEC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE0C542322626AF00021FEC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0C542422626AF00021FEC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0C542922626AF10021FEC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0C544222626AF10021FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE0C544322626AF10021FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0C544522626AF10021FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS Tooklit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-Tooklit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0C544622626AF10021FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS Tooklit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-Tooklit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE0C544822626AF10021FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS TooklitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-TooklitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Tooklit.app/GPS Tooklit";
+			};
+			name = Debug;
+		};
+		AE0C544922626AF10021FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS TooklitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-TooklitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Tooklit.app/GPS Tooklit";
+			};
+			name = Release;
+		};
+		AE0C544B22626AF10021FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS TooklitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-TooklitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Tooklit";
+			};
+			name = Debug;
+		};
+		AE0C544C22626AF10021FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "GPS TooklitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.GPS-TooklitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Tooklit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0C541722626AF00021FEC3 /* Build configuration list for PBXProject "GPS Tooklit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0C544222626AF10021FEC3 /* Debug */,
+				AE0C544322626AF10021FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0C544422626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS Tooklit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0C544522626AF10021FEC3 /* Debug */,
+				AE0C544622626AF10021FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0C544722626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS TooklitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0C544822626AF10021FEC3 /* Debug */,
+				AE0C544922626AF10021FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0C544A22626AF10021FEC3 /* Build configuration list for PBXNativeTarget "GPS TooklitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0C544B22626AF10021FEC3 /* Debug */,
+				AE0C544C22626AF10021FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0C541422626AF00021FEC3 /* Project object */;
+}
