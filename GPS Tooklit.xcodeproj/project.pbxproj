@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C541F22626AF00021FEC3 /* AppDelegate.swift */; };
-		AE0C542222626AF00021FEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C542122626AF00021FEC3 /* ViewController.swift */; };
+		AE0C542222626AF00021FEC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C542122626AF00021FEC3 /* MapViewController.swift */; };
 		AE0C542522626AF00021FEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542322626AF00021FEC3 /* Main.storyboard */; };
 		AE0C542722626AF10021FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542622626AF10021FEC3 /* Assets.xcassets */; };
 		AE0C542A22626AF10021FEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */; };
@@ -36,17 +36,16 @@
 /* Begin PBXFileReference section */
 		AE0C541C22626AF00021FEC3 /* GPS Tooklit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Tooklit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C541F22626AF00021FEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE0C542122626AF00021FEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0C542122626AF00021FEC3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AE0C542422626AF00021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0C542622626AF10021FEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0C542922626AF10021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE0C542B22626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE0C543022626AF10021FEC3 /* GPS TooklitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TooklitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TooklitTests.swift; sourceTree = "<group>"; };
-		AE0C543622626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE0C543B22626AF10021FEC3 /* GPS TooklitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TooklitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TooklitUITests.swift; sourceTree = "<group>"; };
-		AE0C544122626AF10021FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0C544F226280ED0021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		AE0C5451226280F50021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				AE0C541F22626AF00021FEC3 /* AppDelegate.swift */,
-				AE0C542122626AF00021FEC3 /* ViewController.swift */,
+				AE0C542122626AF00021FEC3 /* MapViewController.swift */,
 				AE0C542322626AF00021FEC3 /* Main.storyboard */,
 				AE0C542622626AF10021FEC3 /* Assets.xcassets */,
 				AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */,
-				AE0C542B22626AF10021FEC3 /* Info.plist */,
 			);
 			path = "GPS Tooklit";
 			sourceTree = "<group>";
@@ -111,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */,
-				AE0C543622626AF10021FEC3 /* Info.plist */,
+				AE0C5450226280ED0021FEC3 /* Info.plist */,
 			);
 			path = "GPS TooklitTests";
 			sourceTree = "<group>";
@@ -120,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */,
-				AE0C544122626AF10021FEC3 /* Info.plist */,
+				AE0C5452226280F50021FEC3 /* Info.plist */,
 			);
 			path = "GPS TooklitUITests";
 			sourceTree = "<group>";
@@ -256,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0C542222626AF00021FEC3 /* ViewController.swift in Sources */,
+				AE0C542222626AF00021FEC3 /* MapViewController.swift in Sources */,
 				AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +305,22 @@
 				AE0C542922626AF10021FEC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0C5450226280ED0021FEC3 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0C544F226280ED0021FEC3 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		AE0C5452226280F50021FEC3 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0C5451226280F50021FEC3 /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
