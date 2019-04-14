@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses continuous GPS data for its functionality. We promise none of this data will ever leave your device. To convince yourself of this, feel free to view the source code for this app and see for yourself that your location is never shared with any third party and is used responsibly.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app uses continuous GPS data for its functionality. We promise none of this data will ever leave your device. To convince yourself of this, feel free to view the source code for this app and see for yourself that your location is never shared with any third party and is used responsibly.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

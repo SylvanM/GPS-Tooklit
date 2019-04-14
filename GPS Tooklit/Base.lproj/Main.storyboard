@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,50 +14,68 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="GPS_Tooklit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rdZ-Y6-1Ud">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rdZ-Y6-1Ud">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBW-3d-bdg">
-                                <rect key="frame" x="324" y="792" width="70" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvi-P5-0Tc">
+                                <rect key="frame" x="20" y="40" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu" image="Menu Icon"/>
+                                <connections>
+                                    <action selector="userPressedMenuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XHT-Ro-IaX"/>
+                                    <action selector="userTouchedDownOnMenuButton:" destination="BYZ-38-t0r" eventType="touchDown" id="FHX-bu-KNn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBW-3d-bdg">
+                                <rect key="frame" x="324" y="646" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="YHi-xF-Qte"/>
-                                    <constraint firstAttribute="width" constant="70" id="qBe-Cf-5pU"/>
+                                    <constraint firstAttribute="width" constant="70" id="pwe-Ck-jZk"/>
+                                    <constraint firstAttribute="height" constant="70" id="quG-lo-VNV"/>
                                 </constraints>
                                 <state key="normal" title="Locate" image="Locate Button Icon"/>
+                                <connections>
+                                    <action selector="userPressedMapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deo-4h-0eC"/>
+                                    <action selector="userTouchedDownOnMapButton:" destination="BYZ-38-t0r" eventType="touchDown" id="3pU-NW-cZ7"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvi-P5-0Tc">
-                                <rect key="frame" x="20" y="44" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="TLi-4S-JL8"/>
-                                    <constraint firstAttribute="height" constant="70" id="xQX-35-PWj"/>
-                                </constraints>
-                                <state key="normal" title="Menu" image="Menu Icon"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Coordinates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9p-hm-KZn">
+                                <rect key="frame" x="20" y="671" width="284" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Tvi-P5-0Tc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2wF-yI-8ux"/>
-                            <constraint firstItem="Tvi-P5-0Tc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JDj-w3-esi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oBW-3d-bdg" secondAttribute="trailing" constant="20" id="VGZ-en-QSW"/>
-                            <constraint firstItem="oBW-3d-bdg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lfM-iV-Zos"/>
+                            <constraint firstItem="rdZ-Y6-1Ud" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8b3-kq-9FL"/>
+                            <constraint firstItem="rdZ-Y6-1Ud" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HKf-xS-NBO"/>
+                            <constraint firstItem="rdZ-Y6-1Ud" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mds-Ll-Wbq"/>
+                            <constraint firstItem="rdZ-Y6-1Ud" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O40-40-Sme"/>
+                            <constraint firstItem="oBW-3d-bdg" firstAttribute="leading" secondItem="S9p-hm-KZn" secondAttribute="trailing" constant="20" id="WXB-Nq-aNp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S9p-hm-KZn" secondAttribute="bottom" constant="44" id="nJ5-lY-7Zd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oBW-3d-bdg" secondAttribute="trailing" constant="20" id="on8-Er-nTg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oBW-3d-bdg" secondAttribute="bottom" constant="20" id="xXc-7k-qiC"/>
+                            <constraint firstItem="S9p-hm-KZn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="z7t-Bc-9OR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="annotationsButton" destination="oBW-3d-bdg" id="GIc-dz-wJh"/>
+                        <outlet property="coordsLabel" destination="S9p-hm-KZn" id="RiB-yU-Dbc"/>
                         <outlet property="map" destination="rdZ-Y6-1Ud" id="yGw-kK-ebY"/>
+                        <outlet property="menuButton" destination="Tvi-P5-0Tc" id="xlR-QQ-hac"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+            <point key="canvasLocation" x="137.109375" y="114.20204978038066"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Locate Button Icon" width="500" height="500"/>
-        <image name="Menu Icon" width="500" height="500"/>
+        <image name="Locate Button Icon" width="333.33334350585938" height="333.33334350585938"/>
+        <image name="Menu Icon" width="333.33334350585938" height="333.33334350585938"/>
     </resources>
 </document>

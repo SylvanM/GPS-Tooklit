@@ -15,6 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // Make the markers directory
+        
+        do {
+            try FileManager().createDirectory(at: Marker.ArchiveURL, withIntermediateDirectories: true, attributes: nil)
+        } catch {
+            print("Error on making Markers directory:", error)
+        }
+        
         // Override point for customization after application launch.
         return true
     }

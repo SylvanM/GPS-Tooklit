@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C541F22626AF00021FEC3 /* AppDelegate.swift */; };
 		AE0C542222626AF00021FEC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C542122626AF00021FEC3 /* MapViewController.swift */; };
-		AE0C542522626AF00021FEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542322626AF00021FEC3 /* Main.storyboard */; };
-		AE0C542722626AF10021FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542622626AF10021FEC3 /* Assets.xcassets */; };
-		AE0C542A22626AF10021FEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */; };
 		AE0C543522626AF10021FEC3 /* GPS_TooklitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C543422626AF10021FEC3 /* GPS_TooklitTests.swift */; };
 		AE0C544022626AF10021FEC3 /* GPS_TooklitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */; };
+		AE0C5457226282DA0021FEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542322626AF00021FEC3 /* Main.storyboard */; };
+		AE0C5458226282F40021FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C542622626AF10021FEC3 /* Assets.xcassets */; };
+		AE2824F12262C88C00061C65 /* Coordinate+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2824F02262C88C00061C65 /* Coordinate+String.swift */; };
+		AEDBA4232262957300CD59B3 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA4222262957300CD59B3 /* Marker.swift */; };
+		AEDBA42722629DD000CD59B3 /* AlertController+AddActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA42622629DD000CD59B3 /* AlertController+AddActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		AE0C543F22626AF10021FEC3 /* GPS_TooklitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TooklitUITests.swift; sourceTree = "<group>"; };
 		AE0C544F226280ED0021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		AE0C5451226280F50021FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		AE0C54552262822B0021FEC3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2824F02262C88C00061C65 /* Coordinate+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coordinate+String.swift"; sourceTree = "<group>"; };
+		AEDBA4222262957300CD59B3 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		AEDBA42622629DD000CD59B3 /* AlertController+AddActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+AddActions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +102,15 @@
 		AE0C541E22626AF00021FEC3 /* GPS Tooklit */ = {
 			isa = PBXGroup;
 			children = (
+				AEDBA4222262957300CD59B3 /* Marker.swift */,
+				AEDBA42622629DD000CD59B3 /* AlertController+AddActions.swift */,
+				AEDBA41B22628BD700CD59B3 /* Map View */,
 				AE0C541F22626AF00021FEC3 /* AppDelegate.swift */,
-				AE0C542122626AF00021FEC3 /* MapViewController.swift */,
 				AE0C542322626AF00021FEC3 /* Main.storyboard */,
 				AE0C542622626AF10021FEC3 /* Assets.xcassets */,
 				AE0C542822626AF10021FEC3 /* LaunchScreen.storyboard */,
+				AE0C54552262822B0021FEC3 /* Info.plist */,
+				AE2824F02262C88C00061C65 /* Coordinate+String.swift */,
 			);
 			path = "GPS Tooklit";
 			sourceTree = "<group>";
@@ -121,6 +131,14 @@
 				AE0C5452226280F50021FEC3 /* Info.plist */,
 			);
 			path = "GPS TooklitUITests";
+			sourceTree = "<group>";
+		};
+		AEDBA41B22628BD700CD59B3 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C542122626AF00021FEC3 /* MapViewController.swift */,
+			);
+			path = "Map View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0C542A22626AF10021FEC3 /* LaunchScreen.storyboard in Resources */,
-				AE0C542722626AF10021FEC3 /* Assets.xcassets in Resources */,
-				AE0C542522626AF00021FEC3 /* Main.storyboard in Resources */,
+				AE0C5458226282F40021FEC3 /* Assets.xcassets in Resources */,
+				AE0C5457226282DA0021FEC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDBA42722629DD000CD59B3 /* AlertController+AddActions.swift in Sources */,
+				AEDBA4232262957300CD59B3 /* Marker.swift in Sources */,
 				AE0C542222626AF00021FEC3 /* MapViewController.swift in Sources */,
 				AE0C542022626AF00021FEC3 /* AppDelegate.swift in Sources */,
+				AE2824F12262C88C00061C65 /* Coordinate+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				INFOPLIST_FILE = "GPS Tooklit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				INFOPLIST_FILE = "GPS Tooklit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
